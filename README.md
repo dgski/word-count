@@ -1,2 +1,2 @@
-# word-count
+# word-count using linked list
 This is a simple program that analyzes a paragraph of text and displays a list of words used, ordered from most frequently to least frequently.  It also displays the unique word count, and total word count. It parses for words by using spaces and punctuation as breaks (excluding apostraphes),  and converts uppercase letters into lowercase. It checks whether the word was already seen by checking in a linked list, and if so simply interates the frequency variable.  If not, then it creates a new node for the word. Finally, it sorts the linked list using a bubble sort algorithm.
